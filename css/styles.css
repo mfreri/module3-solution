@@ -7,34 +7,13 @@
 	padding-bottom: 10px;
 }
 
-.navbar-light a:hover {
-	color: #EEE !important;
-}
-
-button:hover {
-	background: #EEE;
-}
-
-h2 {
-	margin-top: 10px;
-}
-
-.block {
-	margin-top: 30px;
-	padding-left: var(--bs-gutter-x,.75rem);
-	border: 0;
-	width: 98%;
-}
-
-@media (max-width: 575px) {
-	.block, .back2top {
-		width: 70%;
-	}
-}
-
 .navbar {
 	margin-top: 0;
 	padding-top: 0;
+}
+
+.navbar-light a:hover {
+	color: #EEE !important;
 }
 
 #navbarSupportedContent a {
@@ -50,15 +29,33 @@ h2 {
 	color: #666 !important;
 }
 
+button:hover {
+	background: #EEE;
+}
+
+h2 {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+#chicken, #beef, #sushi {
+	background-color: gray;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
 .back2top {
 	background-color: white;
 	margin-top: .25em;
+	margin-bottom: 1em;
 	text-align: right;
 }
+
 .back2top a {
 	text-decoration: none;
 	color: black;
 }
+
 .back2top a:hover {
 	text-decoration: none;
 	color: gray;
