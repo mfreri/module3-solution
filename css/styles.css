@@ -1,0 +1,65 @@
+.container-fluid {
+	background-color: gray;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	padding-left: var(--bs-gutter-x,3rem);
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.navbar-light a:hover {
+	color: #EEE !important;
+}
+
+button:hover {
+	background: #EEE;
+}
+
+h2 {
+	margin-top: 10px;
+}
+
+.block {
+	margin-top: 30px;
+	padding-left: var(--bs-gutter-x,.75rem);
+	border: 0;
+	width: 98%;
+}
+
+@media (max-width: 575px) {
+	.block, .back2top {
+		width: 70%;
+	}
+}
+
+.navbar {
+	margin-top: 0;
+	padding-top: 0;
+}
+
+#navbarSupportedContent a {
+	background-color: white;
+	text-align: center;
+	color: black;
+	border: 2px solid black;
+	margin-top: -1px;
+	margin-bottom: -1px;
+}
+
+.nav-item a:hover {
+	color: #666 !important;
+}
+
+.back2top {
+	background-color: white;
+	margin-top: .25em;
+	text-align: right;
+}
+.back2top a {
+	text-decoration: none;
+	color: black;
+}
+.back2top a:hover {
+	text-decoration: none;
+	color: gray;
+}
